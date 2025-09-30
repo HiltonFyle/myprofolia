@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hilton Fyle - Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #00c6ff;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
+    h2 {
+      color: #00c6ff;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      background: #00c6ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #0094cc;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image.jpg" alt="Profile Picture">
+    <h1>Hilton Fyle</h1>
+    <p id="typing"></p>
+    <a href="Josiah_Fyle_Resume.pdf" download class="btn">Download Resume</a>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>Profile Summary</h2>
+    <p>Motivated and detail-oriented IT professional with strong background in networking, computer hardware, CCTV installation, and cybersecurity.</p>
+  </section>
+
+  <section data-aos="fade-right">
+    <h2>Education</h2>
+    <p>Bachelor of Science (BSc) in Information Technology<br>Starz University, Monrovia, Liberia</p>
+  </section>
+
+  <section data-aos="fade-left">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Certificate in Computer Networking (Cisco Networking Academy)</li>
+      <li>Certificate in Computer Hardware (Cisco Networking Academy)</li>
+      <li>Certificate in CCTV Camera Installation</li>
+      <li>Certificate in Cyber Security (Cisco Networking Academy)</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Professional Skills</h2>
+    <ul>
+      <li>Networking: LAN/WAN, Routing & Switching</li>
+      <li>Hardware: Computer assembly & troubleshooting</li>
+      <li>CCTV: IP/Analog setup, DVR/NVR configuration</li>
+      <li>Cybersecurity: Threat detection, data protection</li>
+      <li>IT Support: System installation, software troubleshooting</li>
+    </ul>
+  </section>
+
+  <section data-aos="zoom-in">
+    <h2>Projects & Experience</h2>
+    <p>Worked at IT Help Desk Liberia, providing IT support and leading CCTV installation projects, including IP camera deployment at Gonet Academy.</p>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Deployed CCTV systems for schools & businesses</li>
+      <li>Delivered IT support that improved efficiency</li>
+      <li>Recognized for technical problem-solving</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📧 Email: hiltonfyle20@gmail.com | 📞 Phone: +231-775475195/888246081</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+    });
+  </script>
+
+  <!-- Typed.js Script -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#typing', {
+      strings: ["IT Professional", "Network Specialist", "Cybersecurity Enthusiast", "CCTV Expert"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+</body>
+</html>
